@@ -1,4 +1,4 @@
-### Hi there 👋
+### Curiositats en el món del fútbol 👋
 
 <!--
 **lupo02/lupo02** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

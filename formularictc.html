@@ -1,0 +1,77 @@
+<html
+html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de contacto</title>
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="styles3.css">
+  </head>
+     <body>  
+  
+  <!-- formulari de contacte en html i css -->  
+
+  <div class="contact_form">
+
+    <div class="formulari">      
+      <h1>Formulari de contacte</h1>
+        <h3>Escriu-nos i amb la major brevetat em poso en contacte amb tu </h3>
+
+
+          <form action="submeter-formulario.php" method="post">       
+
+                <p>
+                  <label for="nom" class="colocar_nom">Nombre
+                    <span class="obligatori">*</span>
+                  </label>
+                    <input type="text" name="introduir_nom" id="nom" required="obligatori" placeholder="Escriu el teu nom">
+                </p>
+              
+                <p>
+                  <label for="email" class="colocar_email">Email
+                    <span class="obligatori">*</span>
+                  </label>
+                    <input type="email" name="introduir_email" id="email" required="obligatori" placeholder="Escriu el teu email">
+                </p>
+            
+                <p>
+                  <label for="telefone" class="colocar_telefon">Telèfon
+                  </label>
+                    <input type="tel" name="introduir_telefon" id="telefon" placeholder="Escriu el teu telefon">
+                </p>    
+              
+                <p>
+                  <label for="website" class="colocar_website">Sitio web
+                  </label>
+                    <input type="url" name="introduir_website" id="website" placeholder="Escribe la URL de tu web">
+                </p>    
+              
+                <p>
+                  <label for="asunto" class="colocar_assumpte">Assumpte
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introduir_assumpte" id="assumpte" required="obligatori" placeholder="Escriu un assumpte">
+                </p>    
+              
+                <p>
+                  <label for="Missatge" class="colocar_missatge">Missatge
+                    <span class="obligatori">*</span>
+                  </label>                     
+                                    <textarea name="introduir_missatge" class="text_missatge" id="missatge" required="obligatori" placeholder="Deixa el teu comentari..."></textarea> 
+                                </p>                    
+              
+                <button type="submit" name="envia_formulari" id="enviar"><p>Enviar</p></button>
+
+                <p class="aviso">
+                  <span class="obligatori"> * </span>los campos son obligatorios.
+                </p>          
+            
+          </form>
+    </div>  
+  </div>
+
+</body>
+</html>
